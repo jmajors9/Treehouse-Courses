@@ -1,0 +1,17 @@
+.box {
+  height: 10px;
+  width: 100%;
+}
+
+@each $member in thom, jonny, colin, phil {
+  .bandmember.#{$member} {
+    background: url('images/#{$member}.jpg');
+  }
+}
+
+@for $i from 1 through 100 {
+  .box:nth-child(#{$i}) {
+    background: darken(white, $i);
+  }
+}
+

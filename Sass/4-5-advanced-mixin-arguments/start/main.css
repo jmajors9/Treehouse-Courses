@@ -1,0 +1,34 @@
+.box {
+  height: 20px;
+  width: 20px;
+  background: blue;
+  display: block; }
+
+.radiohead.thom {
+  background: url("images/radiohead/thom.jpg"); }
+
+.radiohead.jonny {
+  background: url("images/radiohead/jonny.jpg"); }
+
+.radiohead.colin {
+  background: url("images/radiohead/colin.jpg"); }
+
+.radiohead.phil {
+  background: url("images/radiohead/phil.jpg"); }
+
+.nin.trent {
+  background: url("images/nin/trent.jpg"); }
+
+.radiohead.thom {
+  background: url("images/radiohead/thom.jpg"); }
+
+.radiohead.jonny {
+  background: url("images/radiohead/jonny.jpg"); }
+
+.radiohead.colin {
+  background: url("images/radiohead/colin.jpg"); }
+
+.radiohead.phil {
+  background: url("images/radiohead/phil.jpg"); }
+
+/*# sourceMappingURL=main.css.map */

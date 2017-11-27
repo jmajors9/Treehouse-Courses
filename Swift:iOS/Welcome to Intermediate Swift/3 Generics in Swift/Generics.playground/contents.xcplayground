@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Quiz Answers'/>
+        <page name='Lesson One'/>
+        <page name='Generic Types'/>
+        <page name='Associated Types'/>
+        <page name='Associated Types Quizes'/>
+        <page name='Associated Types II'/>
+        <page name='Extending Generic Types'/>
+    </pages>
+</playground>

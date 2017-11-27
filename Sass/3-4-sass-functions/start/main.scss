@@ -1,0 +1,35 @@
+$color: #369;
+$black: #000;
+
+@function pxify($value) {
+  @return unquote($value + 'px');
+}
+
+
+div {
+  border: 1px solid $black;
+  height: 100px;
+  width: 255px;
+}
+
+.color {
+  background: $color;
+}
+
+.red, .blue, .green {
+  float: left;
+}
+
+.red {
+  background: red;
+  width: pxify(red($color));
+}
+
+.blue {
+  background: blue;
+  width: pxify(blue($color));
+}
+.green {
+  background: green;
+  width: pxify(green($color));
+}

@@ -1,0 +1,5 @@
+/Users/joelamajors/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/TreehouseDefense/TreehouseDefense/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/joelamajors/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/TreehouseDefense/TreehouseDefense/bin/Debug/TreehouseDefense.exe.mdb
+/Users/joelamajors/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/TreehouseDefense/TreehouseDefense/bin/Debug/TreehouseDefense.exe
+/Users/joelamajors/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/TreehouseDefense/TreehouseDefense/obj/x86/Debug/TreehouseDefense.exe
+/Users/joelamajors/Library/Mobile Documents/com~apple~CloudDocs/Treehouse/TreehouseDefense/TreehouseDefense/obj/x86/Debug/TreehouseDefense.exe.mdb

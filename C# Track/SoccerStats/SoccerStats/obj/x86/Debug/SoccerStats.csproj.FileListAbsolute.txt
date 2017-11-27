@@ -1,0 +1,9 @@
+Z:\Sites\Treehouse\SoccerStats\SoccerStats\obj\x86\Debug\SoccerStats.exe
+Z:\Sites\Treehouse\SoccerStats\SoccerStats\bin\Debug\data.txt
+Z:\Sites\Treehouse\SoccerStats\SoccerStats\bin\Debug\SoccerStats.exe
+Z:\Sites\Treehouse\SoccerStats\SoccerStats\bin\Debug\SoccerStats.pdb
+Z:\Sites\Treehouse\SoccerStats\SoccerStats\obj\x86\Debug\SoccerStats.csprojResolveAssemblyReference.cache
+Z:\Sites\Treehouse\SoccerStats\SoccerStats\obj\x86\Debug\SoccerStats.pdb
+Z:\Sites\Treehouse\SoccerStats\SoccerStats\bin\Debug\players.json
+Z:\Sites\Treehouse\SoccerStats\SoccerStats\bin\Debug\Newtonsoft.Json.dll
+Z:\Sites\Treehouse\SoccerStats\SoccerStats\bin\Debug\Newtonsoft.Json.xml

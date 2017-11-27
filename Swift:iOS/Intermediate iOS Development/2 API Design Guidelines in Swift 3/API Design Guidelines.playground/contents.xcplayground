@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='1 Why Do We Need Guidelines'/>
+        <page name='2 Naming Types'/>
+        <page name='3 Guidelines for Naming Methods '/>
+        <page name='4 Fluent Usage'/>
+        <page name='5 Prepositional vs Grammatical Phrases'/>
+        <page name='7 Side Effects &amp; Mutation'/>
+        <page name='8 Conventions'/>
+    </pages>
+</playground>

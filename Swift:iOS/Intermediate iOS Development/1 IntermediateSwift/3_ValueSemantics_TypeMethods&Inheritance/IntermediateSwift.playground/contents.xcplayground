@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='PropertyObservers'/>
+        <page name='Properties'/>
+        <page name='Object Initialization'/>
+        <page name='Value vs Reference Types'/>
+        <page name='Extensions'/>
+        <page name='Memory Management'/>
+        <page name='Access Control'/>
+    </pages>
+</playground>

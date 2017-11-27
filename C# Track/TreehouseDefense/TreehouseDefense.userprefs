@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{3CAFE969-1D94-46D7-8451-B8DB3D8CE3A0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TreehouseDefense/ShieldedInvader.cs">
+    <Files>
+      <File FileName="TreehouseDefense/Tower.cs" Line="9" Column="3" />
+      <File FileName="TreehouseDefense/Random.cs" Line="10" Column="4" />
+      <File FileName="TreehouseDefense/ShieldedInvader.cs" Line="9" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TreehouseDefense PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,24 @@
+%bar {
+	height: 14px;
+	font-size: 10px;
+	> div {
+		float: left;
+		clear: none;
+	}
+}
+
+.title {
+    @extend %bar;
+}
+
+.menu {
+    @extend %bar;
+    background: #345;
+}
+
+.nav {
+    @extend %bar;
+}
+
+//mixins are for doing really complex stuff
+// extends are just for copying a couple of bits

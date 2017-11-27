@@ -1,0 +1,18 @@
+body {
+  background: #287167;
+  font-family: sans-serif;
+  color: #227788; }
+
+a {
+  color: #69c7da; }
+
+body.about_us {
+  font-size: 100px; }
+
+body {
+  background-color: red;
+  background-image: -webkit-linear-gradient(bottom, red, orange);
+  background-image: linear-gradient(to top,red, orange);
+  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+
+@mixin color-class($color) {
+  .#{$color}.color {
+    background-image: url('images/#{$color}.jpg');
+    color: $color;
+    @if $color == red {
+      border: 1px solid black;
+    }
+  }
+}
+
+@mixin box($width) {
+  @if $width > 100px {
+    padding: 0;
+  } @else if $width == 100px {
+    padding: 5px;
+
+    .big {
+      content: 'huge!';
+    }
+  } @else {
+    padding: 10px;
+  }
+}
+
+div {
+  @include box(100px);
+}
+
+@include color-class(blue);
+@include color-class(green);
+@include color-class(red);
+@include color-class(gray);

@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerStats", "SoccerStats\SoccerStats.csproj", "{C38CAAE8-7B65-48A1-A280-C793877AFD20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0CC9A9A-2B23-46FE-93C9-EF53521AD685}"
+	ProjectSection(SolutionItems) = preProject
+		SoccerStats\bin\Debug\SoccerGameResults.csv = SoccerStats\bin\Debug\SoccerGameResults.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C38CAAE8-7B65-48A1-A280-C793877AFD20}.Debug|x86.ActiveCfg = Debug|x86
+		{C38CAAE8-7B65-48A1-A280-C793877AFD20}.Debug|x86.Build.0 = Debug|x86
+		{C38CAAE8-7B65-48A1-A280-C793877AFD20}.Release|x86.ActiveCfg = Release|x86
+		{C38CAAE8-7B65-48A1-A280-C793877AFD20}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

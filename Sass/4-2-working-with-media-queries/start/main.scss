@@ -1,0 +1,37 @@
+body {
+  font-family: Helvetica;
+}
+
+.content {
+  .sidebar {
+    background: #999;
+    color: white;
+    float: left;
+    padding: 5px;
+    width: 100px;
+
+    a {
+      color: white;
+      display: block;
+    }
+
+    @media (max-width: 480px) {
+      width: 95%;
+
+      a {
+        display: inline;
+			}
+	  }
+	}
+
+  .main {
+    background: #bbb;
+    display: inline-block;
+    padding: 5px;
+    width: 60%;
+
+    @media (max-width: 480px) {
+      width: 95%;
+  	}
+	}
+}

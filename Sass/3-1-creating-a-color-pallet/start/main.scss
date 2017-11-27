@@ -1,0 +1,22 @@
+//order is important
+// adding a 'reset.scss' is helpful to break the settings that are default to a browser and
+
+
+//Definings
+@import 'variables';
+@import 'mixins';
+
+
+// Global Styles
+@import 'globals';
+
+// Page Specifics
+@import 'pages/about_us';
+
+@import 'bourbon/bourbon';
+
+body {
+  @include linear-gradient(to top, red, orange);
+
+  font-family: $lucida-grande;
+}

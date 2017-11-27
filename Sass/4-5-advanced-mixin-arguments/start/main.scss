@@ -1,0 +1,45 @@
+
+@mixin box($size, $color, $display: block) {
+  height: $size;
+  width: $size;
+  background: $color;
+  display: $display;
+}
+
+.box {
+  // @include box($color: blue, $size: 10px);
+  @include box(20px, blue)
+}
+
+@mixin band($name, $members...) {
+  @each $member in $members {
+    .#{$name}.#{$member} {
+      background: url('images/#{$name}/#{$member}.jpg');
+    }
+  }
+}
+
+
+// @mixin band($a, $b, $c, $d) {
+//   @each $member in $a, $b, $c, $d {
+//     .bandmember.#{$member} {
+//       background: url('images/#{$member}.jpg');
+//     }
+//   }
+// }
+
+@include band(radiohead, thom, jonny, colin, phil);
+@include band(nin, trent);
+
+// alt version: not recommended
+// works without commas to be css compliant, but very confusing.
+
+@mixin band($name, $members) {
+  @each $member in $members {
+    .#{$name}.#{$member} {
+      background: url('images/#{$name}/#{$member}.jpg');
+    }
+  }
+}
+
+@include band(radiohead, thom jonny colin phil);

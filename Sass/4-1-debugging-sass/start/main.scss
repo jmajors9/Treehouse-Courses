@@ -1,0 +1,39 @@
+$primary-color: #369;
+$margin: 5px;
+$padding: $margin * 1.5;
+
+@mixin old {
+  @warn 'Please use new() instead';
+}
+
+body {
+  background: $primary-color;
+  font-family: Futura, "Trebuchet MS", sans-serif;
+
+  > h1 {
+    color: #eee;
+    font-size: 3em;
+    margin: $margin 0 0 $margin;
+  }
+  @include old;
+}
+
+.entry {
+  background: white;
+  margin: $margin;
+  padding: $padding;
+
+  h1 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+
+  .date {
+    color: $primary-color;
+    font-size: .3em;
+	}
+
+  a {
+    color: $primary-color;
+	}
+}
