@@ -1,0 +1,10 @@
+/Users/joelamajors/Projects/ComicBookGallery/ComicBookGallery/bin/Debug/netcoreapp1.1/ComicBookGallery.deps.json
+/Users/joelamajors/Projects/ComicBookGallery/ComicBookGallery/bin/Debug/netcoreapp1.1/ComicBookGallery.runtimeconfig.json
+/Users/joelamajors/Projects/ComicBookGallery/ComicBookGallery/bin/Debug/netcoreapp1.1/ComicBookGallery.runtimeconfig.dev.json
+/Users/joelamajors/Projects/ComicBookGallery/ComicBookGallery/bin/Debug/netcoreapp1.1/ComicBookGallery.dll
+/Users/joelamajors/Projects/ComicBookGallery/ComicBookGallery/bin/Debug/netcoreapp1.1/ComicBookGallery.pdb
+/Users/joelamajors/Projects/ComicBookGallery/ComicBookGallery/obj/Debug/netcoreapp1.1/ComicBookGallery.csprojResolveAssemblyReference.cache
+/Users/joelamajors/Projects/ComicBookGallery/ComicBookGallery/obj/Debug/netcoreapp1.1/ComicBookGallery.csproj.CoreCompileInputs.cache
+/Users/joelamajors/Projects/ComicBookGallery/ComicBookGallery/obj/Debug/netcoreapp1.1/ComicBookGallery.AssemblyInfo.cs
+/Users/joelamajors/Projects/ComicBookGallery/ComicBookGallery/obj/Debug/netcoreapp1.1/ComicBookGallery.dll
+/Users/joelamajors/Projects/ComicBookGallery/ComicBookGallery/obj/Debug/netcoreapp1.1/ComicBookGallery.pdb
