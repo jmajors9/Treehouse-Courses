@@ -171,7 +171,15 @@ footer {
   }
 }
 
-.btn {
+%clearfix {
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+%btn {
   border-radius: .35em;
   color: $white;
   display: inline-block;
@@ -181,12 +189,26 @@ footer {
   text-decoration: none;
   text-transform: uppercase;
 
+  &:hover {
+    color: $white;
+    opacity: .8;
+  }
+
+  &:active {
+    opacity: initial;
+  }
+
+}
+
+.btn {
   &-callout {
+    @extend %btn;
     background-color: $color-secondary;
     font-size: 1.1em;
   }
 
   &-info {
+    @extend %btn;
     background-color: $color-primary;
     font-size: .85em;
     margin-top: auto;

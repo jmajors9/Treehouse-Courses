@@ -107,7 +107,7 @@ footer {
   .card h1 {
     color: #278da4; }
 
-.btn {
+.btn-callout, .btn-info {
   border-radius: .35em;
   color: #fff;
   display: inline-block;
@@ -116,13 +116,19 @@ footer {
   padding: .75em 1.5em;
   text-decoration: none;
   text-transform: uppercase; }
-  .btn-callout {
-    background-color: #b13c69;
-    font-size: 1.1em; }
-  .btn-info {
-    background-color: #278da4;
-    font-size: .85em;
-    margin-top: auto; }
+  .btn-callout:hover, .btn-info:hover {
+    color: #fff;
+    opacity: .8; }
+  .btn-callout:active, .btn-info:active {
+    opacity: initial; }
+
+.btn-callout {
+  background-color: #b13c69;
+  font-size: 1.1em; }
+.btn-info {
+  background-color: #278da4;
+  font-size: .85em;
+  margin-top: auto; }
 
 @media (max-width: 575px) {
   header {
