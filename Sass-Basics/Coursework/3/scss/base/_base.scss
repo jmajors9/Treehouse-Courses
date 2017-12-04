@@ -1,14 +1,18 @@
+// ======================================
+//  Base Styles
+// ======================================
+
 * {
   box-sizing: border-box;
 }
 
 body {
   color: $color-text;
-  font-family: $font-stack-primary;
   font-size: 1rem;
   line-height: 1.5;
-  margin: 0;
+  font-family: $font-stack-primary;
   text-align: center;
+  margin: 0;
 }
 
 h1,
@@ -16,26 +20,14 @@ h2 {
   font-family: $font-stack-secondary;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 p {
   margin-bottom: 1.25em;
-  // target a p
-  // inside .intro
-  .intro & {
-    font-size: 1.2em;
-  }
 }
 
 a {
   color: $color-primary;
   text-decoration: none;
-
   &:hover {
-    color: $color-secondary;
+    color: $color-secondary;  
   }
 }
