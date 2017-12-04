@@ -1,0 +1,40 @@
+@media (max-width: 575px) {
+  header {
+    height: 340px;
+
+    h1 {
+      font-size: 3.4em;
+    }
+  }
+
+  .img-featured {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    @include center;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    background-position: 0 0, 0 45%;
+  }
+
+  .intro {
+    width: 45%;
+  }
+}
