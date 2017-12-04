@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  color: #343434;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center; }
+
+h1,
+h2 {
+  font-family: "Bree Serif", serif; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin-bottom: 1.25em; }
+
+a {
+  color: #278da4;
+  text-decoration: none; }
+  a:hover {
+    color: #b13c69; }
+
+header {
+  background: linear-gradient(#009fe1, #3acec2), url("../img/bg.jpg") no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 460px; }
+  header h1 {
+    color: #fff;
+    font-size: 4.8em;
+    letter-spacing: 1px;
+    margin-bottom: 0; }
+  header p {
+    color: #eeea72;
+    font-size: 1.25em;
+    margin: 0; }
+
+footer {
+  background-color: #eee;
+  height: 100px;
+  margin-top: 3.5em;
+  padding: 2em 0 0; }
+
+.inner {
+  padding: .5em 1em; }
+
+.intro {
+  margin: auto;
+  padding: 1em 1em 3em; }
+
+.main-nav {
+  margin-top: 1em; }
+  .main-nav li {
+    display: inline-block;
+    margin: 0 .65em; }
+  .main-nav a {
+    color: #fff;
+    font-size: .85em;
+    padding: .5em;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+.card {
+  border: 1px solid #eee;
+  border-radius: .25em;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em 1em; }
+  .card h1 {
+    line-height: 1.25;
+    margin: .35em 0 0; }
+  .card .icon,
+  .card h1 {
+    color: #278da4; }
+
+.btn-info {
+  background-color: #278da4;
+  border-radius: .35em;
+  color: #fff;
+  display: inline-block;
+  font-size: .85em;
+  font-weight: bold;
+  margin-top: auto;
+  padding: .75em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+@media (max-width: 575px) {
+  header {
+    height: 340px; }
+
+  header h1 {
+    font-size: 3.4em; }
+
+  .img-featured {
+    display: none; } }
+@media (min-width: 576px) {
+  .main-content {
+    display: flex;
+    flex-wrap: wrap; }
+
+  .card {
+    flex: 1; } }
+@media (min-width: 768px) {
+  .main-content {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%; } }
+@media (min-width: 992px) {
+  header {
+    background-position: 0 0, 0 45%; }
+
+  .intro {
+    width: 45%; } }
+
+/*# sourceMappingURL=style.css.map */
