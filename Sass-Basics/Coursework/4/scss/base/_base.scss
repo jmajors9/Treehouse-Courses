@@ -1,0 +1,41 @@
+// ======================================
+//  Base Styles
+// ======================================
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: $color-text;
+  font-family: $font-stack-primary;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+  // if example below. commented out for obvious reasons
+    // @if (1 > 100) {
+    //   background-color: green;
+    // }
+    // @if (1 + 1 == 2) {
+    //   background-color: red;
+    // }
+}
+
+h1,
+h2 {
+  font-family: $font-stack-secondary;
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-secondary;
+  }
+}

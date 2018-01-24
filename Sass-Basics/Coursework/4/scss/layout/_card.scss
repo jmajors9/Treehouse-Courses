@@ -1,0 +1,26 @@
+// ======================================
+//  Card Styles
+// ======================================
+
+.card {
+  border: 1px solid $color-shade;
+  border-radius: .25em;
+  display: flex;
+  flex-direction: column;
+  margin: $gutter;
+  padding: 1.5em 1em;
+
+  h1 {
+    color: $color-primary;
+    line-height: 1.25;
+    margin: .35em 0 0;
+  }
+
+  @media (min-width: $break-s) {
+    flex: 1 per-line(2);
+  }
+
+  @media (min-width: $break-l) {
+    flex-basis: per-line(3);
+  }
+}

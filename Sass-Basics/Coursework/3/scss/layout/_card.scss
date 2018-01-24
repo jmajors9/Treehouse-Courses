@@ -3,21 +3,23 @@
 // ======================================
 
 .card {
-  display: flex;
-  flex-direction: column;
-  padding: 1.5em 1em;
+  @include flexy($dir: column);
   border: 1px solid $color-shade;
-  border-radius: 0.25em;
+  border-radius: .25em;
+  margin: $gutter;
+  padding: 1.5em 1em;
+
   h1 {
     color: $color-primary;
-    margin: 0.35em 0 0;
     line-height: 1.25;
+    margin: .35em 0 0;
   }
+
   @media (min-width: $break-s) {
-    flex: 1;
+    flex: 1 per-line(2);
+  }
+
+  @media (min-width: $break-l) {
+    flex-basis: per-line(3);
   }
 }
-
-
-
-

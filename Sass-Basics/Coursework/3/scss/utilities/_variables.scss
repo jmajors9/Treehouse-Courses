@@ -7,6 +7,7 @@
 $white: #fff;
 
 $color-primary: #278da4; // teal
+$color-primary-light: ligten($color-primary, 10%); // teal
 $color-secondary: #b13c69; // dark violet red
 $color-accent: #eeea72;
 $color-shade: #eee;
@@ -21,6 +22,7 @@ $font-stack-secondary: 'Bree Serif', serif;
 
 // Layout
 $max-width: 1000px;
+$gutter: 10px;
 
 // Breakpoints
 $break-xs: 575px;
@@ -28,8 +30,21 @@ $break-s: 576px;
 $break-m: 768px;
 $break-l: 992px;
 
+// keys can be without quotes, but ours use strings
+$breakpoints: (
+  'xs': 575px,
+  'sm': 576px,
+  'med': 768px,
+  'lg': 992px,
+);
 
+//Theme Colors
 
-
-
-
+$themes: (
+  'ent': #79ccf5,
+  'arch': #fd6fa6,
+  'edu': #23bbae,
+  'sim': #2377bb,
+  'soc': #ada3f0,
+  'games': #3cb144,
+  );

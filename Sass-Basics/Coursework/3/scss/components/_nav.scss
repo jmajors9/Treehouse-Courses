@@ -4,19 +4,22 @@
 
 .main-nav {
   margin-top: 1em;
+
   li {
     display: inline-block;
-    margin: 0 0.65em;
+    margin: 0 .65em;
   }
+
   a {
     color: $white;
-    font-size: 0.85em;
+    font-size: .85em;
+    padding: .5em;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0.5em;
-    transition: 0.3s;
+    transition: .3s;
+
     &:hover {
-      color: $color-accent;  
+      color: rbga($color-accent, .7);
     }
   }
 }

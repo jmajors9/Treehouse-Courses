@@ -1,0 +1,27 @@
+// ======================================
+//  Loops
+// ======================================
+
+// if you had to create 10 class selectors... you can write ten rules. for loops provide an easier way for that to happen
+
+// @for $i from 10 through 20 {
+//   .box-#{$i} {
+//     background-color: adjust-hue(tomato, $i * 20);
+//   }
+// }
+
+// @for $i from 1 to 10 {
+//   .box-#{$i} {
+//     background-color: adjust-hue(tomato, $i * 20);
+//   }
+// }
+
+// now we'll make a list
+$teachers: ('andrew', 'alena', 'joel', 'danielle', 'nick', 'aisha');
+
+//each loop
+@each $teacher in $teachers {
+  .teacher-#{$teacher} {
+    background-image: url('img/#{$teacher}.jpg');
+  }
+}
