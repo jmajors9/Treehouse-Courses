@@ -1,7 +1,8 @@
+import sys
 import os
 import random
-import sys
 
+# make a list of words
 words = [
     'apple',
     'banana',
@@ -103,6 +104,7 @@ def welcome():
 
 
 print('Welcome to Letter Guess!')
+
 
 done = False
 
