@@ -1,25 +1,31 @@
 shopping_list = []
 
+
 def show_help():
     print ("What should we do today?")
     print ("""
-Enter 'DONE' to stop adding items.
-Enter 'HELP' to show this help.
-Enter 'SHOW' to see your current list.
-""")
+            Enter 'DONE' to stop adding items.
+            Enter 'HELP' to show this help.
+            Enter 'SHOW' to see your current list.
+            """)
+
 
 def show_list():
     print("Here's your list:")
     for item in shopping_list:
         print(item)
 
+
 def add_to_list(new_item):
     shopping_list.append(new_item)
-    print("Added {}. List now has {} items.".format(new_item, len(shopping_list )))
+    print("Added {}. List now has {} items.".format(new_item,
+                                                    len(shopping_list)))
 
-# print instructions for how to use the app 
+
+# print instructions for how to use the app
 
 show_help()
+
 
 while True:
 
@@ -34,5 +40,5 @@ while True:
         show_list()
         continue
     add_to_list(new_item)
-    
+
 show_list()

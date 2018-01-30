@@ -4,17 +4,17 @@ shopping_list = []
 
 
 def clear_screen():
-  os.system("cls" if os.name == "nt" else "clear")
+    os.system("cls" if os.name == "nt" else "clear")
 
 
 def show_help():
     clear_screen()
     print("What should we pick up at the store?")
     print("""
-Enter 'DONE' to stop adding items.
-Enter 'HELP' for this help.
-Enter 'SHOW' to see your current list.
-""")
+            Enter 'DONE' to stop adding items.
+            Enter 'HELP' for this help.
+            Enter 'SHOW' to see your current list.
+            """)
 
 
 def add_to_list(item):
@@ -25,30 +25,30 @@ def add_to_list(item):
                          "> ".format(item))
     else:
         position = 0
-        
+
     try:
         position = abs(int(position))
     except ValueError:
         position = None
     if position is not None:
-        shopping_list.insert(position-1, item)
+        shopping_list.insert(position - 1, item)
     else:
         shopping_list.append(new_item)
-    
+
     show_list()
 
 
 def show_list():
     clear_screen()
-    
+
     print("Here's your list:")
-    
+
     index = 1
     for item in shopping_list:
         print("{}. {}".format(index, item))
         index += 1
-        
-    print("-"*10)
+
+    print("-" * 10)
 
 
 show_help()
