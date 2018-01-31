@@ -1,7 +1,6 @@
-
-favorite_things = ["raindrops on roses"
-                   , "whiskers on kittens"
-                   , "bright copper kettles"]
+favorite_things = ["raindrops on roses",
+                   "whiskers on kittens",
+                   "bright copper kettles"]
 
 favorite_things + ["warm woolen mittens"]
 # only adds
