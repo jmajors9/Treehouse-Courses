@@ -1,6 +1,6 @@
 from thieves import Thief
 
-kenneth = Thief(name="Kenneth", sneaky=False)
-print(kenneth.sneaky)
-print(kenneth.agile)
-print(kenneth.hide(8))
+joel = Thief(name="Joel", sneaky=False)
+print(joel.sneaky)
+print(joel.agile)
+print(joel.hide(8))
