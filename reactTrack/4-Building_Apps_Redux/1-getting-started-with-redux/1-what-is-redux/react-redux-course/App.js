@@ -1,3 +1,4 @@
+
 const INITIAL_STATE = {
   players: [
     {
@@ -57,8 +58,8 @@ const Application = React.createClass({
   }
 });
 
-// Move to components/Header.js
 // ----------------------------------------------
+
 function Header(props) {
   return (
     <div className="header">
@@ -101,8 +102,8 @@ Stats.propTypes = {
   players: React.PropTypes.array.isRequired,
 };
 
-// Move to components/Stopwatch.js
 // ------------------------------------------------------------------------
+
 const Stopwatch = React.createClass({
   getInitialState: function () {
     return ({
@@ -168,8 +169,8 @@ const Stopwatch = React.createClass({
   }
 });
 
-// Move to components/Player.js
 // ----------------------------------------------------------------------
+
 function Player(props) {
   return (
     <div className="player">
@@ -191,8 +192,8 @@ Player.propTypes = {
   onScoreChange: React.PropTypes.func.isRequired,
 };
 
-// Move to components/Counter.js
 // ----------------------------------------------------------
+
 function Counter(props) {
  return (
    <div className="counter" >
