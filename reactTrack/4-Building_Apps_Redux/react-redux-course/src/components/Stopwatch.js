@@ -2,60 +2,63 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 export default class Stopwatch extends Component {
-    // not putting in Redux since no other component uses this state data
-    state = { 
-        running: false,
-        previouseTime: 0,
-        elapsedTime: 0
-    };
+  state = { 
+    running: false,
+    previouseTime: 0,
+    elapsedTime: 0
+  };
 
-    componentDidMount () { this.interval = setInterval(this.onTick); }
+  componentDidMount () { 
+    this.interval = setInterval(this.onTick); 
+  }
 
-    componentWillUnmount () { clearInterval(this.interval); }
+  componentWillUnmount () { 
+    clearInterval(this.interval); 
+  }
 
-    onStart = () => {
-        this.setState({
-            running: true,
-            previousTime: Date.now(),
-        });
+  onStart = () => {
+    this.setState({
+      running: true,
+      previousTime: Date.now(),
+    });
+  }
+
+  onStop = () => {
+    this.setState({
+      running: false,
+    });
+  }
+
+  onReset = () => {
+    this.setState({
+      elapsedTime: 0,
+      previousTime: Date.now(),
+    });
+  }
+
+  onTick = () => {
+    if (this.state.running) {
+      var now = Date.now();
+      this.setState({
+        elapsedTime: this.state.elapsedTime + (now - this.state.previousTime),
+        previousTime: Date.now(),
+      });
     }
+  }
 
-    onStop = () => {
-        this.setState({
-            running: false,
-        });
-    }
-
-    onReset = () => {
-        this.setState({
-            elapsedTime: 0,
-            previousTime: Date.now(),
-        });
-    }
-
-    onTick = () => {
-        if (this.state.running) {
-            var now = Date.now();
-            this.setState({
-                elapsedTime: this.state.elapsedTime + (now - this.state.previousTime),
-                previousTime: Date.now(),
-            });
+  render() {
+    var seconds = Math.floor(this.state.elapsedTime / 1000);
+    return (
+      <div className="stopwatch" >
+        <h2>Stopwatch</h2>
+        <div className="stopwatch-time"> {seconds} </div>
+        { this.state.running ?
+          <button onClick={this.onStop}>Stop</button>
+          :
+          <button onClick={this.onStart}>Start</button>
         }
-    }
-
-    render() {
-        var seconds = Math.floor(this.state.elapsedTime / 1000);
-        return (
-            <div className="stopwatch" >
-                <h2>Stopwatch</h2>
-                <div className="stopwatch-time"> {seconds} </div>
-                { this.state.running ?
-                  <button onClick={this.onStop}>Stop</button>
-                  :
-                  <button onClick={this.onStart}>Start</button>
-                }
-                <button onClick={this.onReset}>Reset</button>
-            </div>
-        )
-    }
+        <button onClick={this.onReset}>Reset</button>
+      </div>
+    )
+  }
 }
