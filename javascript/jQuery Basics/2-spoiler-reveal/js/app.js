@@ -1,18 +1,17 @@
+// event delegation. the listener is based on the parent
+// adding event object e is for event
+$('.spoiler').on('click', 'button', function(e){
+  $(this).prev().show();
+  // $(e.target).prev().show();
+  // but this could cause a problem
+  $(this).hide();  
+  // $(e.target).hide();  
+});
+
 // create reveal spoiler button
 const $button = $('<button>Reveal Spoiler</button>');
-// append to web page
-$('.spoiler').append($button);
-// $('.spoiler').prepend($button);
 
+$('.spoiler').append($button);
 
 // hide spoiler on page load
 $('.spoiler span').hide();
-
-
-// when button pressed
-$('.spoiler button').click(function(){
-  // show spoiler
-  $('.spoiler span').show();
-  // hide button 
-  $('.spoiler button').hide();
-});
